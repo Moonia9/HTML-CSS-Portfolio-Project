@@ -18,14 +18,13 @@
  }
 
  .intro-left-container {
-     background: url(../img/photo-1559660312-f63824b09080.jfif);
-     background-repeat: no-repeat ;
+     background-color: rgba(0, 0, 0, 0.157) ;
      position: fixed;
      left: 0;
      width: 33.33333%;
-     height: 100%;
-     object-fit: fill; 
+     height: 100%;   
  }
+
 
  /*Adding Media Queries for the left-avatar-container */
 
@@ -40,8 +39,12 @@
 
 
  .avatar {
-     width: 14.5rem;
-     height : 11.5 rem;
+     width: 17.5rem;
+     height : 14.5 rem;
      border-radius: 30%;
      margin: 1rem;
+ }
+
+ .full-height {
+     height: 100%;
  }
