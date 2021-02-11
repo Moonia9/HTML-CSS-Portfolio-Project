@@ -18,20 +18,30 @@
  }
 
  .intro-left-container {
-     background: url(../img/texture\ 4.jfif);
+     background: url(../img/photo-1559660312-f63824b09080.jfif);
      background-repeat: no-repeat ;
      position: fixed;
      left: 0;
      width: 33.33333%;
      height: 100%;
+     object-fit: fill; 
  }
 
+ /*Adding Media Queries for the left-avatar-container */
 
+ @media (max-width: 768px) {
+     .intro-left-container {
+         height : 30vh;
+         margin-bottom: 0;
+         position: relative;
+         width: 100%;
+     }
+ }
 
 
  .avatar {
      width: 14.5rem;
-     height : 11.5rem;
+     height : 11.5 rem;
      border-radius: 30%;
      margin: 1rem;
  }
