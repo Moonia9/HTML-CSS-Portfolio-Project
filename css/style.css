@@ -17,12 +17,15 @@
      color: #444; 
  }
 
+ /*Left Container*/
+
  .intro-left-container {
      background-color: rgba(0, 0, 0, 0.157) ;
      position: fixed;
      left: 0;
      width: 33.33333%;
-     height: 100%;   
+     height: 100%;  
+     
  }
 
 
@@ -37,10 +40,9 @@
      }
  }
 
-
  .avatar {
-     width: 17.5rem;
-     height : 14.5 rem;
+     width: 20.5rem;
+     height : 17.5 rem;
      border-radius: 30%;
      margin: 1rem;
  }
@@ -48,3 +50,7 @@
  .full-height {
      height: 100%;
  }
+
+ /*Right Container*/
+
+ 
