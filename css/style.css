@@ -14,6 +14,24 @@
  body {
      font-weight: 200;
      font-size : 1.5rem;
-     color: #444;
-     
+     color: #444; 
+ }
+
+ .intro-left-container {
+     background: url(../img/texture\ 4.jfif);
+     background-repeat: no-repeat ;
+     position: fixed;
+     left: 0;
+     width: 33.33333%;
+     height: 100%;
+ }
+
+
+
+
+ .avatar {
+     width: 14.5rem;
+     height : 11.5rem;
+     border-radius: 30%;
+     margin: 1rem;
  }
