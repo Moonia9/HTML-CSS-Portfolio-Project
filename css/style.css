@@ -70,6 +70,10 @@
 
 }
 
+nav .nav-item1 {
+    text-align: end;
+}
+
 /*Inspiration*/
 
 .container-fluid-inspiration {
@@ -84,6 +88,8 @@
    
 }
 
+
+
 /*Card section*/
 
 .card img {
@@ -91,8 +97,13 @@
     object-fit: cover;
 }
 
-.my-projects .card {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
+.my-projects button {
+    float: right;
+}
+
+.my-projects .link {
+    float:right;
+    text-decoration:none;
+    color: #444;
+
 }
