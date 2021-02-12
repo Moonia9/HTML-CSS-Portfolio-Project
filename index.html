@@ -18,6 +18,8 @@
     <title>Portfolio-Project</title>
   </head>
   <body>
+
+    <div class="background"></div>
     <!-- Page Layout-->
     <!-- Left Container-->
     <div class="intro-left-container">
@@ -27,6 +29,9 @@
           <img src="img/avatar.jpg" alt="User avatar" class="avatar">
           <p class="display-6">Enia Munteanu</p>
           <p>Creative designer. Techie. Artist</p>
+          <div class="leaf">
+            <img width="90" height="60" src="https://unpocodesur.com/wp-content/uploads/2020/10/leave2-1.png" class="attachment-large size-small">
+          </div>
         </div>
       </div>
     </div>
@@ -104,7 +109,7 @@
 
      <!--First Card-->     
           <div class="col-md-3">
-            <div class="card" style="width: 18rem; ">
+            <div class="card">
               <img src="img/1..JPG" alt="Bike for refugees" class="card-img-top img-responsive img-thumbnail">
               <div class="card-body pb-5">
                 <h5 class="card-title">Bike for refugees</h5>
@@ -119,7 +124,7 @@
 
 <!--Second Card-->
           <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="img/2..JPG" alt="Karma Project" class="card-img-top img-responsive img-thumbnail">
               
               <div class="card-body">
@@ -132,7 +137,7 @@
 
   <!--Third Card-->        
           <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="img/3.JPG" alt="Henri Cartier-Bresson" class="card-img-top img-responsive img-thumbnail">
               
               <div class="card-body">
@@ -145,7 +150,7 @@
 
 <!--Fourth card-->
           <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="blog/4..JPG" alt="Photography Project" class="card-img-top  img-thumbnail">
               
               <div class="card-body pb-5">
@@ -163,10 +168,42 @@
           <a href="#" class="link mt-3">See More</a>
     </section>
 
+  <!-- Adding the Contact Form-->
 
 
 
-    
+    <section class="contact">
+      <h4 class="display-12 mb-10 mt-5" >Contact me:</h4>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6"><div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Maria....">
+          </div>
+          <div class="col-md-6"><div class="mb-3">
+            <label for="email" class="form-label">Email adress:</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com"></input>
+          </div>
+        </div>
+      </div>
+<div class="col-md-12">
+  <div class="mb-3">
+    <label for="message" class="form-label">Message:</label>
+    <textarea type="message" class="form-control" id="message" rows="3"></textarea>
+  </div>
+</div>
+<button type="button" class="btn btn-light float-right">Send</button> 
+      
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer ">
+      <div class="container-fluid text-center">
+        <span class="text-muted">Made with <3 by<a href="https://github.com/Moonia9"> Moonia</a></span>
+      </div>
+    </footer>
 
 
 
