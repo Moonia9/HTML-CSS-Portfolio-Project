@@ -18,12 +18,16 @@
      color: #444; 
  }
 
- @font-face {
-     font-family: 'IBMPlexMono-Light' ;
-     src: url(/IBMPlexMono-Light.ttf) format("truetype")
-     font-weight: normal;
-     font-style: normal;
+
+ p , nav , div {
+    font-family: 'IBM Plex Mono', monospace;
  }
+
+ @font-face {
+     src:url(/fonts/IBMPlexMono-Light.ttf);
+     font-family: 'IBM Plex Mono', monospace;
+ }
+
 
  /*Left Container*/
 
