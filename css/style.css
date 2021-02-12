@@ -69,3 +69,18 @@
     background-color: rgba(148, 144, 144, 0.157);
 
 }
+
+/*Inspiration*/
+
+.container-fluid-inspiration {
+    height: auto;
+    max-width: 100%;
+}
+
+.inspiration img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    display :flex;
+    flex-direction: column;
+}
