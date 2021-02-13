@@ -26,7 +26,7 @@
     <div class="container-fluid full-height">
       <div class="row text-center align-items-center full-height ">
         <div class="col"> 
-          <img src="img/avatar.jpg" alt="User avatar" class="avatar">
+          <img src="img/avatar.jpg" alt="User avatar" class="avatar img-fluid">
           <p class="display-6">Enia Munteanu</p>
           <p>Creative designer. Techie. Artist</p>
           <div class="leaf">
@@ -43,24 +43,45 @@
         <div class="col-md-4">Left container</div>
 <!-- Right Container-->
         <div class="col-md-8">Right container
-        <nav>
-         
-
-          <ul class="nav justify-content-end p-3 bg-light text-white" >
-
-            <li class="nav-item">
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end p-3 bg-light text-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link active" href="#">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">CV</a>
-             
             </li>
-            
             <li class="nav-item1">
               <a class="nav-link disabled" href="#">Insights</a>
             </li>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="nav-item ">
+                  <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CV</a>
+                </li>
+                <li class="nav-item1">
+                  <a class="nav-link disabled" href="#">Insights</a>
+                </li>
           </ul>
-        </nav>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
         <!-- First section of headings-->
 
@@ -111,7 +132,7 @@
               <img src="img/1..JPG" alt="Bike for refugees" class="card-img-top img-responsive img-thumbnail">
               <div class="card-body pb-5">
                 <h5 class="card-title">Bike for refugees</h5>
-                <p class="card-text">An HTML and CSS based project.</p>
+                <p class="card-text">An HTML and CSS based project. Basics</p>
                 <button type="button" class="btn btn-outline-secondary ">Read more</button>
               </div>
             </div>
@@ -136,7 +157,7 @@
               
               <div class="card-body">
                 <h5 class="card-title">Henri Cartier-Bresson</h5>
-                <p class="card-text">An HTML and CSS based project.Focusing on transitions.</p>
+                <p class="card-text">An HTML and CSS based project</p>
                 <button type="button" class="btn btn-outline-secondary">About the artist</button>
               </div>
             </div>
@@ -148,8 +169,8 @@
               <img src="blog/4..JPG" alt="Photography Project" class="card-img-top  img-thumbnail">
               
               <div class="card-body pb-5">
-                <h5 class="card-title">Photography Project</h5>
-                <p class="card-text">First CodePen Project using HTML and CSS.</p>
+                <h5 class="card-title">Photography </h5>
+                <p class="card-text">CodePen Project using HTML and CSS.</p>
                 <button type="button" class="btn btn-outline-secondary">More insights</button>
               </div>
             </div>
@@ -200,19 +221,5 @@
       </div>
       </div>
     </div>
-    
-
-
-
-
-
-
-    
-   
-
-
-
-
-
   </body>
 </html>
