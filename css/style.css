@@ -70,18 +70,6 @@
  /*Right Container*/
 /*Inspiration*/
 
-/* .container-fluid-inspiration {
-    height: auto;
-    max-width: 100%;
-}
-
-.inspiration img {
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
-   
-} */
-
 .inspiration img {
     height: auto;
 }
@@ -91,6 +79,7 @@
 .card img {
     width: 100%;
     object-fit: cover;
+  
 }
 
 .my-projects button {
