@@ -40,20 +40,25 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">Left container</div>
+        <div class="col-md-4"></div>
 <!-- Right Container-->
-        <div class="col-md-8">Right container
+        <div class="col-md-8">
+
+
 <!--Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end p-3 bg-light text-white">
+<nav class="navbar navbar-expand-lg navbar-light p-3 bg-light ">
+  <div class="container">
+      <div class="row">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand col-md-1" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+    <span class="col-md-4"></span>
+    <div class="collapse navbar-collapse col-md-2" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <li class="nav-item">
+        
+          <li class="nav-item ">
               <a class="nav-link active" href="#">About</a>
             </li>
             <li class="nav-item">
@@ -64,20 +69,11 @@
             </li>
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li class="nav-item ">
-                  <a class="nav-link active" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CV</a>
-                </li>
-                <li class="nav-item1">
-                  <a class="nav-link disabled" href="#">Insights</a>
-                </li>
-          </ul>
+          </a> 
         </li>
       </ul>
+  </div>
+  </div>
     </div>
   </div>
 </nav>
@@ -113,7 +109,7 @@
             </div>
             
             <div class="col-md-3"><img src="img/IMG_20200403_161747_470.jpg" alt="Portfolio Image" class="img-responsive img-thumbnail">
-              <p class="align-text-bottom text-center">Being inspired by o</p>
+              <p class="align-text-bottom text-center">Being inspired by others</p>
             </div>
            <p class="p text-secondary p-6 mb-1 mt-1" >Despite having a very creative background and a curious spirit, I have also shared a love for technology. And so my journey started...</p>
           </div>
@@ -133,7 +129,7 @@
               <div class="card-body pb-5">
                 <h5 class="card-title">Bike for refugees</h5>
                 <p class="card-text">An HTML and CSS based project. Basics</p>
-                <button type="button" class="btn btn-outline-secondary ">Read more</button>
+                <button type="button" class="btn btn-outline-secondary "><a href="https://github.com/Moonia9/bikes-for-refugees" alt="bike for refugees Github project" class="text-decoration-none">Read more</a></button>
               </div>
             </div>
           </div>
@@ -145,7 +141,7 @@
               <div class="card-body">
                 <h5 class="card-title">Karma Project</h5>
                 <p class="card-text">An HTML and CSS based project.Using Media Queries.</p>
-                <button type="button" class="btn btn-outline-secondary">More</button>
+                <button type="button" class="btn btn-outline-secondary"><a href="https://github.com/Moonia9/HTML-CSS-Coursework-Week2" alt="Flexbox exercise.Github" class="text-decoration-none">More</a></button>
               </div>
             </div>
           </div>
@@ -158,7 +154,7 @@
               <div class="card-body">
                 <h5 class="card-title">Henri Cartier-Bresson</h5>
                 <p class="card-text">An HTML and CSS based project</p>
-                <button type="button" class="btn btn-outline-secondary">About the artist</button>
+                <button type="button" class="btn btn-outline-secondary"><a herf="https://github.com/Moonia9/HTML-CSS-Coursework-Week1" alt="Ode to Henri Cartier.Github project" class="text-decoration-none">About the artist</a></button>
               </div>
             </div>
           </div>
@@ -171,7 +167,7 @@
               <div class="card-body pb-5">
                 <h5 class="card-title">Photography </h5>
                 <p class="card-text">CodePen Project using HTML and CSS.</p>
-                <button type="button" class="btn btn-outline-secondary">More insights</button>
+                <button type="button" class="btn btn-outline-secondary"><a href="https://github.com/Moonia9/project-photography" alt="Codepen project" class="text-decoration-none">More insights</a></button>
               </div>
             </div>
           </div>
@@ -190,12 +186,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6"><div class="mb-3">
-            <label for="name" class="form-label">Name:</label>
-            <input type="text" class="form-control" id="name" placeholder="Maria....">
+            <label for="name" class="form-label ">Name:</label>
+            <input type="text" class="form-control bg-light " id="name" placeholder="Maria....">
           </div>
           <div class="col-md-6"><div class="mb-3">
             <label for="email" class="form-label">Email adress:</label>
-            <input type="email" class="form-control" id="email" placeholder="name@example.com"></input>
+            <input type="email" class="form-control bg-light" id="email" placeholder="name@example.com"></input>
           </div>
         </div>
       </div>
@@ -204,10 +200,10 @@
 <div class="col-md-12">
   <div class="mb-3">
     <label for="message" class="form-label">Message:</label>
-    <textarea type="message" class="form-control" id="message" rows="3"></textarea>
+    <textarea type="message" class="form-control bg-light" id="message" rows="3"></textarea>
   </div>
 </div>
-<button type="button" class="btn btn-light float-right">Send</button> 
+<button type="button" class="btn btn-light float-right btn-outline-secondary">Send</button> 
       
     </section>
 
