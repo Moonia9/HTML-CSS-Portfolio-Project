@@ -18,8 +18,6 @@
      font-weight: 200;
      font-size : 1.5rem;
      color: #444; 
-     
-     
  }
 
 
@@ -78,16 +76,17 @@
 
 .card img {
     width: 100%;
-    object-fit: cover;
-  
+    object-fit: cover; 
 }
 
+.my-projects button {
+    float: right;
+}
 
 .my-projects .link {
     float:right;
     text-decoration:none;
     color: #444;
-
 }
 
 /*Footer*/
@@ -95,10 +94,9 @@
 .footer {
     font-size: 1rem;
     margin: 0;
-
 }
 
-/*Clip background color*/
+/*Clip background color for the right container*/
 
 .background-right-container {
     background-color:  rgba(0, 0, 0, 0.157);
